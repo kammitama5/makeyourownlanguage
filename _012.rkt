@@ -3,6 +3,8 @@
 ;;income taxes even though the tax rate is a solid, never
 ;;changing 15%. Determine tax on gross pay
 
+;; grosspay = n + (n * .15)
+
 (define (grosspay n)
   (+ (* n (/ 15 100))n))
 
