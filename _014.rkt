@@ -5,6 +5,8 @@
 ;;plus $.50 per attendee
 ;;Develop the total-profit where input is number of attendees
 
+;; equation: 5n - (.5n - 20)
+
 (define (movieprofit num)
  (- (* 5 num)(+ (*(/ 1 2) num)20)))
 
