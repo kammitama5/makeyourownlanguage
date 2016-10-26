@@ -3,6 +3,8 @@
 ;;compute the value of a bag of coins.
 ;; Adds pennies, nickels, dimes and quarters
 
+;; equation -> pennies = .01, nickels = .05, dimes = .1, quarters = .25
+
 (define (supertotal p n d q)
  (+ (+(* p .01)(* n .05)(* d .1) (* q .25))))
 
